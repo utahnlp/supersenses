@@ -1,0 +1,4 @@
+[submodule "streusle"]
+	path = data/streusle
+	url = git@github.com:nert-gu/streusle.git
+	branch = pss-disambig
