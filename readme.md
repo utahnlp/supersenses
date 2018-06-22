@@ -1,11 +1,9 @@
 This repository produces the results of the feature rich classifier from
 the paper:
 
-Schneider, Nathan, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin
-Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri
-Abend. "Comprehensive Supersense Disambiguation of English Prepositions
-and Possessives." In ACL (2018).
+Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. Comprehensive supersense disambiguation of English prepositions and possessives. _Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics_, Melbourne, Australia, July 15–20, 2018. <http://people.cs.georgetown.edu/nschneid/p/pssdisambig.pdf>
 
+(Other resources from the paper available at: https://github.com/nert-gu/streusle/blob/master/ACL2018.md)
 
 ## Getting started
 
