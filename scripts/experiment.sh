@@ -46,7 +46,7 @@ TRAIN_JSON=$STREUSLE_DIR/input/train/streusle.ud_train.$ID.$SYN.json
 DEV_JSON=$STREUSLE_DIR/input/dev/streusle.ud_dev.$ID.$SYN.json
 TEST_JSON=$STREUSLE_DIR/input/test/streusle.ud_test.$ID.$SYN.json
 
-HIERARCHY_FILE=$STREUSLE_DIR/hierarchy.json
+HIERARCHY_FILE=data/hierarchy.json
 
 EXPERIMENTS_DIR=experiments/output
 EXPERIMENT_OUT=$EXPERIMENTS_DIR/$ID.$SYN
