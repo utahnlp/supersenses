@@ -7,7 +7,7 @@ scalaVersion := "2.11.7"
 retrieveManaged := true
 
 resolvers ++= Seq(
-  "CogcompSoftware" at "http://cogcomp.cs.illinois.edu/m2repo/"
+  "CogcompSoftware" at "http://cogcomp.org/m2repo//"
 )
 
 libraryDependencies ++= Seq(
