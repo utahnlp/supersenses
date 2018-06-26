@@ -5,7 +5,7 @@ SUPERSENSES_HOME=$SCRIPT_DIR/..
 
 CMD="edu.utah.cs.learnlab.supersensesv2.Main"
 
-CP=$SUPERSENSES_HOME/lib/*.jar:$SUPERSENSES_HOME/target/scala-2.11/classes
+CP=$SUPERSENSES_HOME/lib/*:$SUPERSENSES_HOME/target/scala-2.11/classes
 
 # First pull all bundles
 for dir in $(ls $SUPERSENSES_HOME/lib_managed/bundles); do
