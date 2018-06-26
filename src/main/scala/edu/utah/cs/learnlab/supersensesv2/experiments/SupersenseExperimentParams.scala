@@ -39,7 +39,9 @@ trait SupersenseExperimentParams extends Experiment {
   def getFile(key: Parameter, params: ParameterSet): File = {
     val f = params[String](key)
     if(f.endsWith(".json")) {
-      new File(f)
+      val ff = new File(f)
+      if(!ff.exists())
+        throw new Exception(s"File $f not found. Please check the path")
     } else {
       throw new Exception(s"Expecting a json file. Found $f instead")
     }
